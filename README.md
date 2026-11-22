@@ -1,13 +1,22 @@
 # Your Web Studio — website redesign service
 
-A responsive, buildless marketing site for an Ireland-based website redesign and launch service.
+A responsive six-page website for an Ireland-based redesign and launch service for trades and service businesses.
+
+## Pages
+
+- Home
+- Services
+- Process
+- Pricing
+- FAQs
+- Contact
 
 ## Update before launch
 
 - Replace “Your Web Studio” with the chosen public business name.
-- Replace `hello@yourstudio.ie` with the real contact email in both the `mailto:` link and visible text.
-- Confirm the scope and revision allowance wording reflects the final service terms.
-- Confirm hosting/domain access is transferred through a secure invitation, not by sharing passwords.
+- Replace `hello@yourstudio.ie` in `contact.html` with the real contact email.
+- Confirm the one included revision round and project scope wording reflect the final service terms.
+- Provide clients domain and hosting access through a secure invite, not by sharing passwords.
 
 ## Run locally
 
@@ -15,5 +24,5 @@ Open `index.html` in a browser. There are no build dependencies.
 
 ## Hosting
 
-Static HTML, CSS, and JavaScript. Can be deployed to Vercel or any static host. Source is intended to remain open source for client handoff and future edits.
+Static HTML, CSS, and JavaScript. The source is open under the MIT license and can be deployed to Vercel or another static host.
 
