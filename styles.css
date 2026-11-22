@@ -33,3 +33,10 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 
 
+/* Keep the navigation dropdown independent from FAQ disclosure styling. */
+.nav-dropdown{border:0;padding:0;margin:0}
+.nav-dropdown>summary{display:inline-flex;align-items:center;justify-content:flex-start;gap:0;width:auto;border:0;padding:8px 0;margin:0;line-height:1.4}
+.nav-dropdown[open]>summary{border-bottom:0}
+.nav-dropdown>summary:after{flex:none}
+@media(max-width:560px){.nav-dropdown>summary{padding:5px 0}}
+
